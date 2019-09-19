@@ -20,7 +20,10 @@ end
 
 # total 
 def reduce_to_total(source_array,starting_point)
+  if starting_point != nil
     source_array.reduce(starting_point) { |sum, n| sum + n }
+  else source_array.sum
+  end
 end 
 
 # all true
