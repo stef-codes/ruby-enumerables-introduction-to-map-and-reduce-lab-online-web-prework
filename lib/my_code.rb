@@ -9,11 +9,11 @@ def map_to_no_change(source_array)
 end 
 
 #double
-def map_to_no_change(source_array)
+def map_to_no_double(source_array)
   source_array.map { |n| n * 2 }
 end 
 
 #squared 
-def map_to_no_change(source_array)
+def map_to_no_square(source_array)
   source_array.map { |n| n ** 2 }
 end 
